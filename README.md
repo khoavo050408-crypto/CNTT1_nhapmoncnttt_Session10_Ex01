@@ -1,12 +1,23 @@
-1. Phân tích vấn đề
+# 1. Phân tích vấn đề
+
 Trong tài liệu SRS của dự án Smart Food, Nam sử dụng định dạng thủ công như tăng cỡ chữ, in đậm để làm nổi bật tiêu đề thay vì sử dụng Heading Styles. Cụ thể, mục “1. Giới thiệu” được định dạng Normal với cỡ chữ 20 và mục “2. Yêu cầu chức năng” được định dạng Normal với cỡ chữ 18.
+
 Mặc dù hình thức trình bày giống tiêu đề, Microsoft Word vẫn nhận diện các nội dung này là văn bản thông thường. Vì vậy, khi tạo mục lục tự động, Word không tìm thấy các tiêu đề phù hợp và hiển thị thông báo “No table of contents entries found”.
+
 Bên cạnh đó, Nam còn gán nhầm Heading 1 cho một đoạn văn bản dài 5 trang. Điều này khiến Word hiểu toàn bộ đoạn văn là một tiêu đề cấp 1 và đưa vào mục lục. Nguyên nhân là do sử dụng Heading Styles không đúng mục đích, chưa phân biệt rõ giữa tiêu đề và nội dung thông thường.
-2. Khắc phục lỗi
-Trước tiên, cần gán lại Heading Styles cho các tiêu đề. Chọn “1. Giới thiệu” và “2. Yêu cầu chức năng”, sau đó vào Home → Styles → Heading 1 vì đây là hai mục lớn ngang cấp. Đối với các mục nhỏ như “2.1. Chức năng đặt món” và “2.2. Chức năng thanh toán”, sử dụng Heading 2 để thể hiện đúng cấp bậc nội dung.
-Tiếp theo, chọn đoạn văn dài 5 trang đang bị gán nhầm Heading 1, vào Home → Styles → Normal để chuyển về kiểu văn bản thông thường. Cần kiểm tra lại toàn bộ tài liệu để bảo đảm chỉ các tiêu đề thực sự mới sử dụng Heading Styles.
-Sau khi sửa lỗi, tiến hành tạo lại mục lục bằng cách xóa mục lục cũ nếu cần, đặt con trỏ tại vị trí muốn chèn, chọn References → Table of Contents và chọn một mẫu Automatic Table. Word sẽ tự động tổng hợp các tiêu đề đã được gán Heading Styles cùng số trang tương ứng.
-Khi bổ sung nội dung khiến số trang thay đổi, nhấp chuột phải vào mục lục và chọn Update Field. Chọn Update page numbers only nếu chỉ thay đổi số trang; chọn Update entire table nếu có thêm, xóa hoặc chỉnh sửa tiêu đề.
-3. Kết quả và kết luận
+
+# 2. Khắc phục lỗi
+
+Trước tiên, cần gán lại Heading Styles cho các tiêu đề. Chọn “1. Giới thiệu” và “2. Yêu cầu chức năng”, sau đó vào **Home → Styles → Heading 1** vì đây là hai mục lớn ngang cấp. Đối với các mục nhỏ như “2.1. Chức năng đặt món” và “2.2. Chức năng thanh toán”, sử dụng **Heading 2** để thể hiện đúng cấp bậc nội dung.
+
+Tiếp theo, chọn đoạn văn dài 5 trang đang bị gán nhầm Heading 1, vào **Home → Styles → Normal** để chuyển về kiểu văn bản thông thường. Cần kiểm tra lại toàn bộ tài liệu để bảo đảm chỉ các tiêu đề thực sự mới sử dụng Heading Styles.
+
+Sau khi sửa lỗi, tiến hành tạo lại mục lục bằng cách xóa mục lục cũ nếu cần, đặt con trỏ tại vị trí muốn chèn, chọn **References → Table of Contents** và chọn một mẫu Automatic Table. Word sẽ tự động tổng hợp các tiêu đề đã được gán Heading Styles cùng số trang tương ứng.
+
+Khi bổ sung nội dung khiến số trang thay đổi, nhấp chuột phải vào mục lục và chọn **Update Field**. Chọn **Update page numbers only** nếu chỉ thay đổi số trang; chọn **Update entire table** nếu có thêm, xóa hoặc chỉnh sửa tiêu đề.
+
+# 3. Kết quả và kết luận
+
 Sau khi khắc phục, các tiêu đề được phân cấp chính xác, đoạn văn dài 5 trang không còn xuất hiện trong mục lục như một tiêu đề, đồng thời mục lục tự động hiển thị nội dung và số trang phù hợp. Khi tài liệu thay đổi, người dùng có thể cập nhật mục lục nhanh chóng mà không cần chỉnh sửa thủ công từng trang.
+
 Qua tình huống trên, có thể thấy việc sử dụng Heading Styles đúng cách giúp tổ chức nội dung khoa học, bảo đảm tính thống nhất và nâng cao hiệu quả quản lý tài liệu kỹ thuật. Đây là kỹ năng cần thiết khi xây dựng tài liệu SRS trong Microsoft Word.
